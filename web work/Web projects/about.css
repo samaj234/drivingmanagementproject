@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ddd;
+}
+
+.hero{
+    background: url(assets/drive.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+}
+.hero h1{
+    color: #fff;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
