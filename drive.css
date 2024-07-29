@@ -27,16 +27,21 @@ nav span p{
     position: relative;
 }
 nav{
-
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
     display: flex;
-    padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-    backdrop-filter: blur(3px);
+    padding: 10px;
+    z-index: 1000;
+    backdrop-filter: blur(20px);
     
-   
     
 }
+
+
 nav img{
     width: 50px;
 
@@ -50,13 +55,13 @@ nav img{
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 8px 14px;
     position: relative;
 }
 .nav-links ul li a{
-    color: #fff;
+    color: #f44336;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
 
 }
 .nav-links ul li::after{
@@ -123,12 +128,12 @@ nav img{
  nav .fa{
     display: block;
     color: #fff;
-    margin: 10px;
-    font-size: 22px;
+    margin: 0 5px 0 5px;
+    font-size: 16px;
     cursor: pointer;
  }
  .nav-links ul{
-    padding: 30px;
+    padding: 20px;
  }
 
 
@@ -208,8 +213,9 @@ nav img{
 .team-box img{
     width: 150px;
     height: 150px;
-    border-radius: 50%;
-    border: 6px solid #fff;    
+    border-radius: 55%;
+    border: 6px solid #fff;
+    object-fit: cover;    
 }
 
 #team{
@@ -309,5 +315,27 @@ button:hover{
     color: #101c32;
     font-weight: 400;
 }
-
-
+footer .copyright{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+footer .copyright p{
+    color: #fff;
+}
+footer .copyright .pro-links{
+    margin-top: 0px;
+    
+}
+footer .copyright .pro-links i{
+    background-color: #5f7185;
+    color: #fff;
+}
+footer .copyright .pro-links i:hover{
+    background: #f44336;
+    color: #2c2c2c;
+    
+}

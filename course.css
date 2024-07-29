@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+nav span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+nav span i{
+    font-size: 50px;
+    color: #fff;
+}
+nav span p{
+    font-size: 30px;
+}
+nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 1000;
+    backdrop-filter: blur(20px);
+    
+    
+}
+
+
+nav img{
+    width: 50px;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 14px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #f44336;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+.nav-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+a.{
+    pos
+}
+.container{
+    background: url(assets/drive.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+   
+}
+.text{
+    padding-top: 150px;
+    padding-left: 100px;
+    color: #fff;
+    
+}
+.text h3{
+    font-size: 42px;
+}
+.text p{
+    font-size: 20px;
+}
+.course{
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.course .courses{
+    text-align: start;
+    background: #ddd;
+    height: 100%;
+    position: relative;
+
+}
+.course .courses img{
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+}
+.course .course-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+
+}
+.course .courses .details{
+    padding: 15px 15px 0 15px;
+
+
+}
+.course .courses .details i{
+    color: #ff4436;
+    font-size: 0.9rem;
+}
+.course .courses .cost{
+    background-color: #101c32;
+    color: #fff;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    bottom: 100px;
+}
+.btn{
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    border: 0px solid;
+    font-weight: 500;
+    font-size: 20px;
+    background: #101c32;
+    text-align: center;
+    color: #fff;
+    padding: 10px 10px;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+    
+}
+.btn:hover{
+    color: #101c32;
+    background: #fff;
+    font-weight: 500;
+}
+
+
+
+
+
+
+footer{
+    padding: 6vw;
+    background-color: #101c32;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .footer-col{
+    padding-bottom: 20px;
+}
+footer h3{
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+footer li{
+    list-style: none;
+    color: #7b838a;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+footer li:hover{
+    color: rgba(241, 240, 245);
+}
+footer p{
+    color: #7b838a;
+    font-size: 20px;
+}
+footer .suscribe{
+    margin-top: 20px;
+
+}
+footer input{
+    width: 220px;
+    padding: 15px 12px;
+    background: #334f6c;
+    border: none;
+    outline: none;
+    color: #fff;
+
+}
+button {
+    padding: 14px;
+    width: 150px;
+    background: #f44336;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button:hover{
+    background: #fff;
+    color: #101c32;
+    font-weight: 400;
+}
+footer .copyright{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+footer .copyright p{
+    color: #fff;
+}
+footer .copyright .pro-links{
+    margin-top: 0px;
+    
+}
+footer .copyright .pro-links i{
+    background-color: #5f7185;
+    color: #fff;
+}
+footer .copyright .pro-links i:hover{
+    background: #f44336;
+    color: #2c2c2c;
+    
+}
